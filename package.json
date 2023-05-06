@@ -1,0 +1,35 @@
+{
+  "name": "electron-forge-vite-vue-template",
+  "productName": "electron-forge-vite-vue-template",
+  "version": "1.0.0",
+  "description": "Mini template for electron-forge combine with vite and vue3.",
+  "main": ".vite/build/main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "keywords": [],
+  "author": {
+    "name": "taojiacheng",
+    "email": "swkzymlyy@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.1.1",
+    "@electron-forge/maker-deb": "^6.1.1",
+    "@electron-forge/maker-rpm": "^6.1.1",
+    "@electron-forge/maker-squirrel": "^6.1.1",
+    "@electron-forge/maker-zip": "^6.1.1",
+    "@electron-forge/plugin-vite": "^6.1.1",
+    "electron": "24.2.0",
+    "@vitejs/plugin-vue": "^4.2.1",
+    "vite": "^4.3.5"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "vue": "^3.2.47"
+  }
+}
