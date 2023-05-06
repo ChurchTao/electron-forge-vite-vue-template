@@ -5,6 +5,9 @@ defineProps({
   msg: String,
 });
 
+const tips = `本应用正在使用 Chrome (v${versions.chrome()}), Node.js (v${versions.node()}), 和 Electron
+    (v${versions.electron()})`;
+
 const count = ref(0);
 </script>
 
@@ -30,8 +33,7 @@ const count = ref(0);
     in your IDE for a better DX
   </p>
   <p class="read-the-docs">
-    `本应用正在使用 Chrome (v${versions.chrome()}), Node.js (v${versions.node()}), 和 Electron
-    (v${versions.electron()})`
+    {{ tips }}
   </p>
 </template>
 
